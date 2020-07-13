@@ -1,0 +1,126 @@
+body{
+	background-color:#556B2F;
+	font-size: 16px;
+ 	color:#fff;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+
+/************Header ***********/
+#nav-header{/*navigation panel*/
+	background-color:#FFFAF0;
+	border-radius: 0;
+	border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1{/*Title content*/
+	font-size: 1.5em;
+	color:#8B0000;
+	font-family: 'Fondamento', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #222;
+   	line-height: 0;
+   	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#list-nav{
+	margin-top: 10px; 
+}
+
+#list-nav a{
+	color:#000000;
+	text-align: center;
+}
+
+/******************Home**************/
+
+.container .jumbotron{
+	padding:0;
+	box-shadow: 0 0 20px #800000;
+	margin-bottom: 30px;
+
+}
+
+h2{
+	color:#FFFAF0;
+	font-size: 1em;
+	margin-top: 0;
+	border: 1px solid black;
+	width: 150px;
+	height: 20%;
+	background-color: #FFFAF0;
+	color:#8B0000;
+	padding:10px;
+	float: right;
+}
+.sub_content{
+	color:#FFD700;
+	font-size: 0.9em;
+	clear: right;
+}
+
+
+
+section{
+	
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 1px solid black;
+		background-color: #006400;
+		text-align: center;
+		height: 210px;
+		overflow: auto;
+
+	}
+
+
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 7vw;
+    line-height: 30px;
+  }
+
+}
+
+/*Medium devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+  .container .jumbotron{
+    background: url('../img/Elements.jpg') no-repeat;
+    height: 595px;
+  }
+
+}
+
+/*Large Devices*/
+@media (min-width: 1200px) {
+  .container .jumbotron{
+    background: url('../img/Elements_1200.jpg') no-repeat;
+    height: 751px;
+  }
+  .col-xl-12{
+  	width: 100%;
+  }
+
+}
+
+
+@media (max-width: 773px){
+	
+	.navbar-brand h1 { /* Restaurant name */
+    	padding-top: 10px;
+    	font-size: 3.5vw; /* 1vw = 1% of viewport width */
+  }
+		
+}
+
