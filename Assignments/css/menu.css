@@ -3,61 +3,53 @@
 /*******Base Style********/
 	*{
 		box-sizing: border-box;
-		margin:1px;
-		padding: 0px;
+
 	}
 
+
+	body{
+		background-color:#556B2F;
+	}
 	h1{
 		font-size: 40px;
 		text-align: center;
-		margin:  30px;
+		margin-bottom: 30px;
+		color: #A9A9A9;
 	}
 	
-	#container{
-		width: 100%;
-		position: relative;
-		text-align: center;
-
-	}
-	
+		
 	p{
-		border: 2px solid black;
+		border: 1px solid black;
 		width: 20%;
 		height: 15%;
 		float: right;
 		font-size: 1.05em;
-		
-		
+		margin-block-start:0px;
+   		margin-block-end: 0;
+		background-color: #EEE8AA;
 	}	
-
-
-	#b1{
-		background-color:#FFB6C1; 
-	}
-	#b2{
-		background-color: #FF0000;
-	}
-	#b3{
-		background-color: #FFFF00;
-	}	
-	.container1,.container2,.container3{
-		
-		background-color: #8FBC8F;
-		border: 2px solid black;
-		height: 150px;
-		margin:1px;
-	}
-
 	article{
 		clear: right;
+
 	}
 
+	section{
+	
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 1px solid black;
+		background-color: #8FBC8F;
+		height: 150px;
+		text-align: center;
+	}
+	
+/**********Large devieces*************/
 
 @media (min-width: 992px){
 
-	.container1,.container2,.container3{
+	.col-lg-4{
 		float: left;
-		width: 30%;
+		width: 33.33%;
 	}
 	
 	
@@ -65,27 +57,28 @@
 
 	}
 
-
+/**********Medium devieces*************/
 @media (min-width: 768px) and (max-width: 991px){
 
-	.container1,.container2{
+	.col-md-6{
 		float: left;
-		width: 45%
+		width: 50%
 	}
-	.container3{
+	.col-lg-12{
 		float: left;
-		width: 90%;
+		width: 100%;
 	}
 	
 	
 
 	}
 
+/**********small devieces*************/
 @media (max-width: 767px){
 	
-	.container1,.container2,.container3{
+	.col-lg-12{
 		float: left;
-		width: 90%
+		width: 100%
 	}
 
 	

@@ -335,16 +335,7 @@ h3.menu-item-title {
   }
   /* End Header */
 
-   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
+    
 
     /* Footer */
   .panel-footer section {
@@ -367,6 +358,16 @@ h3.menu-item-title {
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
   }
 
 }
