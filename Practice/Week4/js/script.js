@@ -288,16 +288,16 @@
 // Y(); // Y() invoked the first time
 
 
+// Namespaces
+// var carrunner={};
+// carrunner.run=function () {
+// 		console.log("Car runs");
+// 	}
 
-var carrunner={};
-carrunner.run=function () {
-		console.log("Car runs");
-	}
+// var bikerunner={};
+// bikerunner.run=function () {
+// 		console.log("bike runs");
+// 	}
 
-var bikerunner={};
-bikerunner.run=function () {
-		console.log("bike runs");
-	}
-
-carrunner.run();
-bikerunner.run();
+// carrunner.run();
+// bikerunner.run();
