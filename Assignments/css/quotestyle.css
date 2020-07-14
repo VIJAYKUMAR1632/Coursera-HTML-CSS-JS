@@ -86,12 +86,23 @@ section{
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 7vw;
+    padding-top: 0;
+    font-size: 10vw;
     line-height: 30px;
   }
 
 }
+
+@media (max-width: 767px){
+	
+	.navbar-brand h1 { /* Restaurant name */
+    	padding-top: 0;
+    	font-size: 5vw;
+    	line-height: 38px; /* 1vw = 1% of viewport width */
+  }
+		
+}
+
 
 /*Medium devices*/
 @media (min-width: 992px) and (max-width: 1199px){
@@ -110,17 +121,13 @@ section{
   }
   .col-xl-12{
   	width: 100%;
+
   }
+ #Agni_title{
+ 	float: middle;
+ }
 
 }
 
 
-@media (max-width: 773px){
-	
-	.navbar-brand h1 { /* Restaurant name */
-    	padding-top: 10px;
-    	font-size: 3.5vw; /* 1vw = 1% of viewport width */
-  }
-		
-}
 
