@@ -1,5 +1,5 @@
-
-// JS Basics
+// /*
+// JS Basics*/
 
 // var a="Hello Global";
 // console.log(a);
@@ -33,7 +33,7 @@
 // entertainment.actress["name"]="Tapsee";
 // entertainment.actress["genre"]="action";
 
-// // console.log(entertainment);
+// console.log(entertainment);
 
 // var music
 
@@ -301,3 +301,15 @@
 
 // carrunner.run();
 // bikerunner.run();
+
+// Immediately invoked Function Expression
+
+// (function () {
+// 	// body...
+// 	console.log("Hello, How are you !!");
+// })();
+
+
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+console.log(names[0].charAt(0).toLowerCase() == 'j');

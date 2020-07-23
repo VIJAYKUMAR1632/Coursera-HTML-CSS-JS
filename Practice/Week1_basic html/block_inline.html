@@ -2,13 +2,24 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<style >
+		/**{
+			box-sizing: border-box;
+		}*/
+		.col-md-4{
+			width: 33.33%
+			text-align:center;
+		}
+	</style>
 </head>
 <body>
-	<div>div1</div>
-	<div>div2</div>
-	<span> span1</span>
-	<div>div out of span2
-		<span>span2 inside div</span>
+	<div class="col-md-4" style="background-color:#F5DEB3; float: left;" >div1</div>
+	<div class="col-md-4" style="background-color: #2E8B57;float:left;">div2</div>
+	
+	<div class="col-md-4" style="background-color:#FFEFD5; float: left;">div out of span2
+		<span style="background-color:#AFEEEE; float:left; ">span2 inside div</span>
 	</div>
+
+	<span style="background-color: #FF0000; float: left;"> span1</span>
 </body>
 </html>
